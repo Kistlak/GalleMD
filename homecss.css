@@ -1,0 +1,255 @@
+body  {
+    background-color: #e3e7f0;
+	height:auto;
+	width:1200px;
+	margin-left:75px;
+	background-image: url("Ingress badges-black.jpg");
+}
+
+ul {
+
+    width:1200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #002147;
+	font-family: Times New Roman;
+	font-size:22px;
+	font-weight: 0;
+	height:67px;
+	margin-top:10px;
+}
+
+li {
+    float: left;
+border-right:1px solid #bbb;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+	color:black;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+/* border-bottom:1px solid #bbb; */
+}
+
+.dropdown-content a:hover {color:white;background-color: #002147}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+	vertical-align: text-top;
+	margin-left:100px;
+	margin-right:50px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+/* #container{
+width:1200px;
+height:1500px;
+} */
+
+
+#header {
+    width:1168px;
+    padding: 0em;
+    color: black;
+    background-color: white;
+    clear: left;   
+}
+
+#footer {
+    width:auto;
+    margin-top: auto;
+    padding: 1em;
+    color: white;
+    background-color: #002147;
+    clear: left;
+	margin-left:0px;
+	
+     }
+	
+mySlides {display:none;
+}
+
+h2 {
+    color: white;
+	font-family: Times New Roman;
+	font-weight:bold;
+	font-size: 150%;
+}
+
+a {
+    color: #C0C0C0;
+	text-decoration: none;
+	line-height: 150%;
+	font-family: Times New Roman;
+	font-size: 90%;
+}
+
+p.address{
+	color:#C0C0C0;
+	line-height: 150%;
+	font-family: Times New Roman;
+	font-size: 90%;
+	
+}
+
+/*Social Media*/
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height:57px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+hr {
+    display: block;
+ 
+    border-style: groove;
+    border-width: 1px;
+    height:1px;
+    background-color:black;
+}
+
+.copyright{
+	font-size:80%;
+}	
+
+/* #right{
+float:right;
+width:200px;
+height:1350px;
+background-color:red;
+}
+
+#left{
+float:left;
+width:200px;
+height:1350px;
+background-color:red;
+} */
+
